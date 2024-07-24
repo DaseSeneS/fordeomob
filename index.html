@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин техники</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Technodom</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#products">Каталог</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Поиск...">
+                <button><img src="images/search-icon.png" alt="Поиск"></button>
+            </div>
+            <div class="header-icons">
+                <a href="#login">Войти</a>
+                <a href="#compare">Сравнения</a>
+                <a href="#wishlist">Желания</a>
+                <a href="#cart">Корзина</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Добро пожаловать в Technodom</h2>
+                <p>Лучшие устройства и гаджеты по отличным ценам</p>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <h2>Каталог товаров</h2>
+                <div class="product-grid" id="product-grid">
+                    <!-- Продукты будут добавлены здесь через JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Свяжитесь с нами</h2>
+                <p>Для вопросов и предложений пишите на email@example.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Technodom. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
